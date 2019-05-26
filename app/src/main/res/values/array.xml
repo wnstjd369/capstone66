@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name='급식'>
+        <item>학교 도착(자동)</item>
+        <item>학교 도착+ 사진인증</item>
+        <item>김준성</item>
+
+    </string-array>
+</resources>

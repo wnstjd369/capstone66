@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.capstone3">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.capstone3.FileExActivity" />
+        <activity android:name="com.example.capstone3.Main2Activity" />
+
+        <receiver
+            android:name="com.example.capstone3.BootCompleteReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.example.capstone3.LockScreenService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.example.capstone3.ParentActivity" />
+        <activity android:name="com.example.capstone3.subActivity" />
+        <activity android:name="com.example.capstone3.MenuActivity" />
+        <activity android:name="com.example.capstone3.SignUpActivity" />
+        <activity android:name="com.example.capstone3.ManagementActivity" />
+        <activity android:name="com.example.capstone3.PrefExActivity" />
+        <activity android:name="com.example.capstone3.PrefFragmentActivity" />
+        <activity android:name="com.example.capstone3.locker"/>
+        <activity android:name="com.example.capstone3.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.capstone3.MainActivity" />
+        <activity android:name="com.example.capstone3.ScreenOffExActivity" />
+
+        <service
+            android:name="com.example.capstone3.LockScreenService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.example.capstone3.QuizLockerActivity" />
+        <activity
+            android:name="com.example.capstone2.activity.EnterPinActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

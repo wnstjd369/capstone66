@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name='급식2'>
+        <item>핸드폰 전체 잠금</item>
+        <item>핸드폰 부분 잠금</item>
+        <item>용돈 관리</item>
+
+    </string-array>
+</resources>
