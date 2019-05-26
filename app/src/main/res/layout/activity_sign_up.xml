@@ -2,12 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_marginTop="100dp"
     tools:context=".SignUpActivity">
 
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -22,12 +45,12 @@
             android:text="핸드폰번호" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/PhoneID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="PhoneNumber" />
+            android:hint="" />
 
     </LinearLayout>
 
@@ -44,7 +67,7 @@
             android:text="비밀번호입력" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/PW1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -65,7 +88,7 @@
             android:text="비밀번호확인" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/PW2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -85,7 +108,7 @@
             android:text="상대방번호" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/PartnerID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -101,29 +124,33 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="가입유형" />
+            android:text="사용자 분류" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
+        <RadioGroup
+            android:id="@+id/choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="학생" />
+            android:orientation="horizontal">
 
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="부모" />
+            <RadioButton
+                android:id="@+id/stuent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학생" />
+
+            <RadioButton
+                android:id="@+id/parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부모" />
+        </RadioGroup>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/SignUpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
