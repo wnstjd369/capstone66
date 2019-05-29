@@ -3,6 +3,8 @@ package com.example.capstone3;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import static java.lang.Boolean.FALSE;
+
 public class User {
 
     private String Phone;
@@ -10,7 +12,9 @@ public class User {
     private String PName;
     private String Password;
     private String Classification;
-
+    private int Connect;
+    private int Lock;
+    private int Geofence;
 
     public User() { }
 
@@ -60,5 +64,30 @@ public class User {
 
     public void setClassification(String classification) {
         Classification = classification;
+    }
+
+
+    public int getConnect() {
+        return Connect;
+    }
+
+    public void setConnect(int connect) {
+        Connect = connect;
+    }
+
+    public int getLock() {
+        return Lock;
+    }
+
+    public void setLock(int lock) {
+        Lock = lock;
+    }
+
+    public int getGeofence() {
+        return Geofence;
+    }
+
+    public void setGeofence(int geofence) {
+        Geofence = geofence;
     }
 }

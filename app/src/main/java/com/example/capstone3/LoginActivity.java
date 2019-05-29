@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -54,7 +55,6 @@ public class LoginActivity extends AppCompatActivity {
     private TextView Password;
     private String HPassword;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,26 +92,43 @@ public class LoginActivity extends AppCompatActivity {
                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        Iterator<DataSnapshot> child = dataSnapshot.getChildren().iterator();
-                        User user = dataSnapshot.child(Phone.getText().toString()).getValue(User.class);
-                        if (user.getPassword().equals(HPassword)) {
-                            if (user.getClassification().equals("부모")) {
-                                Toast.makeText(getApplicationContext(), "로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                intent.putExtra("Name",user.getName());
-                                intent.putExtra("PName",user.getPName());
-                                startActivity(intent);
+                        if(dataSnapshot.child(Phone.getText().toString()).exists()) {
+                            Iterator<DataSnapshot> child = dataSnapshot.getChildren().iterator();
+                            User user = dataSnapshot.child(Phone.getText().toString()).getValue(User.class);
+
+                            if (dataSnapshot.child(user.getPName()).exists()) {
+                                User user2 = dataSnapshot.child(user.getPName()).getValue(User.class);
+                                if (user2.getPhone().equals(user.getPName()))
+                                    databaseReference.child(Phone.getText().toString()).child("connect").setValue(1);
+                                else {
+                                    databaseReference.child(Phone.getText().toString()).child("connect").setValue(0);
+                                }
                             }
                             else {
-                                Toast.makeText(getApplicationContext(), "로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
-                                intent.putExtra("Name",user.getName());
-                                intent.putExtra("PName",user.getPName());
-                                startActivity(intent);
+
+                            }
+                            if (user.getPassword().equals(HPassword)) {
+                                if (user.getClassification().equals("부모")) {
+                                    Toast.makeText(getApplicationContext(), "로그인!", Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                    intent.putExtra("Name", user.getName());
+                                    intent.putExtra("PName", user.getPName());
+                                    intent.putExtra("Phone", user.getPhone());
+                                    startActivity(intent);
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "로그인!", Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
+                                    intent.putExtra("Name", user.getName());
+                                    intent.putExtra("PName", user.getPName());
+                                    intent.putExtra("Phone", user.getPhone());
+                                    startActivity(intent);
+                                }
+                            } else {
+                                Toast.makeText(getApplicationContext(), "번호 또는 비밀번호를 확인하세요.", Toast.LENGTH_LONG).show();
                             }
                         }
                         else {
-                            Toast.makeText(getApplicationContext(), "아이디 또는 비밀번호를 확인하세요.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "번호 또는 비밀번호를 확인하세요.", Toast.LENGTH_SHORT).show();
                         }
                     }
 

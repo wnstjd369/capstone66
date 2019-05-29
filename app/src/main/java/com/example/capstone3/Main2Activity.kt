@@ -1,13 +1,20 @@
 package com.example.capstone3
 import android.content.Intent
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import android.os.Build
 import android.os.Bundle
 import android.preference.MultiSelectListPreference
 import android.preference.PreferenceFragment
 import android.preference.SwitchPreference
 import android.support.v7.app.AppCompatActivity
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import java.util.concurrent.locks.Lock
 
 class Main2Activity : AppCompatActivity() {
+
     val fragment = MyPreferenceFragment()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,6 +25,13 @@ class Main2Activity : AppCompatActivity() {
 
     class MyPreferenceFragment : PreferenceFragment() {
         override fun onCreate(savedInstanceState: Bundle?) {
+
+            val database = FirebaseDatabase.getInstance()
+            val databaseReference = database.getReference("users")
+
+            val intent = Intent()
+            //val Phone:String = intent.getStringExtra("Phone")
+
             super.onCreate(savedInstanceState)
             // 환경설정 리소스 파일 적용
             addPreferencesFromResource(R.xml.pref)
@@ -40,6 +54,9 @@ class Main2Activity : AppCompatActivity() {
                 when {
                     // 퀴즈 잠금화면 사용이 체크된 경우 LockScreenService 실행
                     useLockScreenPref.isChecked -> {
+
+                        databaseReference.child("33").child("lock").setValue(1)
+
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                             activity.startForegroundService(Intent(activity, LockScreenService::class.java))
                         } else {
@@ -47,7 +64,10 @@ class Main2Activity : AppCompatActivity() {
                         }
                     }
                     // 퀴즈 잠금화면 사용이 체크 해제된 경우 LockScreenService 중단
-                    else -> activity.stopService(Intent(activity, LockScreenService::class.java))
+                    else -> {
+                        activity.stopService(Intent(activity, LockScreenService::class.java))
+                        databaseReference.child("33").child("lock").setValue(0)
+                    }
                 }
                 true
             }
