@@ -14,11 +14,13 @@ class Main2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
         // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체
         fragmentManager.beginTransaction().replace(R.id.preferenceContent, fragment).commit()
+
     }
 
     class MyPreferenceFragment : PreferenceFragment() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
+
             // 환경설정 리소스 파일 적용
             addPreferencesFromResource(R.xml.pref)
             // 퀴즈 종류 요약정보에, 현재 선택된 항목을 보여주는 코드
