@@ -116,6 +116,8 @@ public class EnterPinActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_enterpin);
 
+
+
         mTextAttempts = (TextView) findViewById(R.id.attempts);
         mTextTitle = (TextView) findViewById(R.id.title);
         mIndicatorDots = (IndicatorDots) findViewById(R.id.indicator_dots);
@@ -141,6 +143,23 @@ public class EnterPinActivity extends AppCompatActivity {
                 checkForFingerPrint();
             }
         }
+
+        HomeWatcher mHomeWatcher = new HomeWatcher(this);
+
+        mHomeWatcher.setOnHomePressedListener(new OnHomePressedListener() {
+            @Override
+            public void onHomePressed() {
+                Intent i = new Intent(getApplicationContext(),EnterPinActivity.class);
+                i.addCategory(Intent.ACTION_MAIN);
+                i.addCategory(Intent.CATEGORY_HOME);
+                startActivity(i);
+
+            }
+            @Override
+            public void onHomeLongPressed() {
+            }
+        });
+        mHomeWatcher.startWatch();
 
         final PinLockListener pinLockListener = new PinLockListener() {
 
@@ -215,46 +234,46 @@ public class EnterPinActivity extends AppCompatActivity {
     }
 
     //Create the generateKey method that we’ll use to gain access to the Android keystore and generate the encryption key//
-    private void generateKey() throws FingerprintException {
-        try {
-            // Obtain a reference to the Keystore using the standard Android keystore container identifier (“AndroidKeystore”)//
-            mKeyStore = KeyStore.getInstance("AndroidKeyStore");
-
-            //Generate the key//
-            mKeyGenerator = KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES, "AndroidKeyStore");
-
-            //Initialize an empty KeyStore//
-            mKeyStore.load(null);
-
-            //Initialize the KeyGenerator//
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                mKeyGenerator.init(new
-
-                        //Specify the operation(s) this key can be used for//
-                        KeyGenParameterSpec.Builder(FINGER_PRINT_KEY,
-                        KeyProperties.PURPOSE_ENCRYPT |
-                                KeyProperties.PURPOSE_DECRYPT)
-                        .setBlockModes(KeyProperties.BLOCK_MODE_CBC)
-
-                        //Configure this key so that the user has to confirm their identity with a fingerprint each time they want to use it//
-                        .setUserAuthenticationRequired(true)
-                        .setEncryptionPaddings(
-                                KeyProperties.ENCRYPTION_PADDING_PKCS7)
-                        .build());
-            }
-
-            //Generate the key//
-            mKeyGenerator.generateKey();
-
-        } catch (KeyStoreException
-                | NoSuchAlgorithmException
-                | NoSuchProviderException
-                | InvalidAlgorithmParameterException
-                | CertificateException
-                | IOException exc) {
-            throw new FingerprintException(exc);
-        }
-    }
+//    private void generateKey() throws FingerprintException {
+//        try {
+//            // Obtain a reference to the Keystore using the standard Android keystore container identifier (“AndroidKeystore”)//
+//            mKeyStore = KeyStore.getInstance("AndroidKeyStore");
+//
+//            //Generate the key//
+//            mKeyGenerator = KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES, "AndroidKeyStore");
+//
+//            //Initialize an empty KeyStore//
+//            mKeyStore.load(null);
+//
+//            //Initialize the KeyGenerator//
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//                mKeyGenerator.init(new
+//
+//                        //Specify the operation(s) this key can be used for//
+//                        KeyGenParameterSpec.Builder(FINGER_PRINT_KEY,
+//                        KeyProperties.PURPOSE_ENCRYPT |
+//                                KeyProperties.PURPOSE_DECRYPT)
+//                        .setBlockModes(KeyProperties.BLOCK_MODE_CBC)
+//
+//                        //Configure this key so that the user has to confirm their identity with a fingerprint each time they want to use it//
+//                        .setUserAuthenticationRequired(true)
+//                        .setEncryptionPaddings(
+//                                KeyProperties.ENCRYPTION_PADDING_PKCS7)
+//                        .build());
+//            }
+//
+//            //Generate the key//
+//            mKeyGenerator.generateKey();
+//
+//        } catch (KeyStoreException
+//                | NoSuchAlgorithmException
+//                | NoSuchProviderException
+//                | InvalidAlgorithmParameterException
+//                | CertificateException
+//                | IOException exc) {
+//            throw new FingerprintException(exc);
+//        }
+//    }
 
     //Create a new method that we’ll use to initialize our mCipher//
     public boolean initCipher() {
@@ -431,21 +450,21 @@ public class EnterPinActivity extends AppCompatActivity {
 //                    mTextFingerText.setVisibility(View.GONE);
                     return;
                 } else {
-                    try {
-                        generateKey();
-                        if (initCipher()) {
-                            //If the mCipher is initialized successfully, then create a CryptoObject instance//
-                            mCryptoObject = new FingerprintManager.CryptoObject(mCipher);
+//                    try {
+////                        generateKey();
+                    if (initCipher()) {
+                        //If the mCipher is initialized successfully, then create a CryptoObject instance//
+                        mCryptoObject = new FingerprintManager.CryptoObject(mCipher);
 
-                            // Here, I’m referencing the FingerprintHandler class that we’ll create in the next section. This class will be responsible
-                            // for starting the authentication process (via the startAuth method) and processing the authentication process events//
-                            FingerprintHandler helper = new FingerprintHandler(this);
-                            helper.startAuth(mFingerprintManager, mCryptoObject);
-                            helper.setFingerPrintListener(fingerPrintListener);
-                        }
-                    } catch (FingerprintException e) {
-                        Log.wtf(TAG, "Failed to generate key for fingerprint.", e);
+                        // Here, I’m referencing the FingerprintHandler class that we’ll create in the next section. This class will be responsible
+                        // for starting the authentication process (via the startAuth method) and processing the authentication process events//
+                        FingerprintHandler helper = new FingerprintHandler(this);
+                        helper.startAuth(mFingerprintManager, mCryptoObject);
+                        helper.setFingerPrintListener(fingerPrintListener);
                     }
+//                    } catch (FingerprintException e) {
+//                        Log.wtf(TAG, "Failed to generate key for fingerprint.", e);
+//                    }
                 }
             } else {
                 mImageViewFingerView.setVisibility(View.GONE);
@@ -459,14 +478,20 @@ public class EnterPinActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-      
+
 
     }
-
-    private class FingerprintException extends Exception {
-        public FingerprintException(Exception e) {
-            super(e);
-        }
+    protected void onUserLeaveHint(){
+        super.onUserLeaveHint();
+        Intent intent = new Intent(getApplicationContext(),EnterPinActivity.class);
+        startActivity(intent);
     }
+
+//    private class FingerprintException extends Exception {
+//        public FingerprintException(Exception e) {
+//            super(e);
+//        }
+//    }
+
 
 }

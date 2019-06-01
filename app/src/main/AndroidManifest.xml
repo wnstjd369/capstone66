@@ -4,6 +4,11 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-feature android:name="android.hardware.camera"
+            android:required="true"/>
 
     <application
         android:allowBackup="true"
@@ -12,12 +17,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name="com.example.capstone3.FileExActivity" />
-        <activity android:name="com.example.capstone3.Main2Activity" />
+        <activity android:name=".camera"></activity>
+        <activity android:name=".FileExActivity" />
+        <activity android:name=".Main2Activity" />
 
         <receiver
-            android:name="com.example.capstone3.BootCompleteReceiver"
+            android:name=".BootCompleteReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -25,37 +30,53 @@
         </receiver>
 
         <service
-            android:name="com.example.capstone3.LockScreenService"
+            android:name=".LockScreenService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name="com.example.capstone3.ParentActivity" />
-        <activity android:name="com.example.capstone3.subActivity" />
-        <activity android:name="com.example.capstone3.MenuActivity" />
-        <activity android:name="com.example.capstone3.SignUpActivity" />
-        <activity android:name="com.example.capstone3.ManagementActivity" />
-        <activity android:name="com.example.capstone3.PrefExActivity" />
-        <activity android:name="com.example.capstone3.PrefFragmentActivity" />
-        <activity android:name="com.example.capstone3.locker"/>
-        <activity android:name="com.example.capstone3.LoginActivity">
+        <activity android:name=".ParentActivity" />
+        <activity android:name=".subActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ManagementActivity" />
+        <activity android:name=".PrefExActivity" />
+        <activity android:name=".PrefFragmentActivity" />
+        <activity android:name=".locker" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.capstone3.MainActivity" />
-        <activity android:name="com.example.capstone3.ScreenOffExActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ScreenOffExActivity" />
 
         <service
-            android:name="com.example.capstone3.LockScreenService"
+            android:name=".LockScreenService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name="com.example.capstone3.QuizLockerActivity" />
+        <activity android:name=".QuizLockerActivity" />
         <activity
             android:name="com.example.capstone2.activity.EnterPinActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name ="android.support.v4.content.FileProvider"
+            android:authorities="org.techtown.capture.intent.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/external"/>
+        </provider>
     </application>
 
 </manifest>

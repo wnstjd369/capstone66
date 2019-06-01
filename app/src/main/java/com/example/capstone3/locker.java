@@ -21,24 +21,33 @@ public class locker extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_locker);
-
-        Button normal = (Button) findViewById(R.id.normal);
-        Button setPin = (Button) findViewById(R.id.setPin);
-        Button setFont = (Button) findViewById(R.id.setFont);
-        Button setPinAndFont = (Button) findViewById(R.id.setPinAndFont);
-
-        normal.setOnClickListener(new View.OnClickListener() {
+        Button button9 = findViewById(R.id.button9);
+        button9.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), camera.class);
+                startActivity(intent);
 
-                // start the activity, It handles the setting and checking
-                Intent intent = new Intent(locker.this, EnterPinActivity.class);
-//                startActivity(intent);
-
-                // for handling back press
-                startActivityForResult(intent, REQUEST_CODE);
             }
         });
+
+//        Button normal = (Button) findViewById(R.id.normal);
+        Button setPin = (Button) findViewById(R.id.setPin);
+//        Button setFont = (Button) findViewById(R.id.setFont);
+//        Button setPinAndFont = (Button) findViewById(R.id.setPinAndFont);
+
+//        normal.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                // start the activity, It handles the setting and checking
+//                Intent intent = new Intent(locker.this, EnterPinActivity.class);
+////                startActivity(intent);
+//
+//                // for handling back press
+//                startActivityForResult(intent, REQUEST_CODE);
+//            }
+//        });
 
         setPin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,26 +60,26 @@ public class locker extends AppCompatActivity {
             }
         });
 
-        setFont.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+//        setFont.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                // setting font for library
+//                Intent intent = EnterPinActivity.getIntent(locker.this, FONT_TEXT, FONT_NUMBER);
+//                startActivity(intent);
+//            }
+//        });
 
-                // setting font for library
-                Intent intent = EnterPinActivity.getIntent(locker.this, FONT_TEXT, FONT_NUMBER);
-                startActivity(intent);
-            }
-        });
-
-        setPinAndFont.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                // setting font for library and set pin instead of checking it
-                Intent intent = EnterPinActivity.getIntent(locker.this, true, FONT_TEXT, FONT_NUMBER);
-                startActivity(intent);
-            }
-        });
-
+//        setPinAndFont.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                // setting font for library and set pin instead of checking it
+//                Intent intent = EnterPinActivity.getIntent(locker.this, true, FONT_TEXT, FONT_NUMBER);
+//                startActivity(intent);
+//            }
+//        });
+//
 
     }
 
