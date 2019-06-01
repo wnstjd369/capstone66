@@ -8,27 +8,16 @@
     tools:context=".locker">
 
     <Button
-        android:id="@+id/normal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Normal" />
-
-    <Button
         android:id="@+id/setPin"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Set Pin" />
+        android:text="비밀번호 설정" />
 
     <Button
-        android:id="@+id/setFont"
-        android:layout_width="wrap_content"
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Set Font" />
+        android:text="Button" />
 
-    <Button
-        android:id="@+id/setPinAndFont"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Set Pin And Font" />
 
 </LinearLayout>

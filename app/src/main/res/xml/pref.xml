@@ -4,11 +4,11 @@
         android:defaultValue="false"
         android:key="useLockScreen"
         android:title="잠금화면 사용" />
-    <MultiSelectListPreference
-        android:defaultValue="@array/category"
-        android:entries="@array/category"
-        android:entryValues="@array/category"
-        android:key="category"
-        android:summary="일반상식, 역사, 수도"
-        android:title="이건 뭘로 할까" />
+    <!--<MultiSelectListPreference-->
+    <!--android:defaultValue="@array/category"-->
+    <!--android:entries="@array/category"-->
+    <!--android:entryValues="@array/category"-->
+    <!--android:key="category"-->
+    <!--android:summary="일반상식, 역사, 수도"-->
+    <!--android:title="이건 뭘로 할까" />-->
 </PreferenceScreen>
