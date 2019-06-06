@@ -30,8 +30,11 @@ class Main2Activity : AppCompatActivity() {
         setButton.setOnClickListener{
             var intent = Intent(this,locker::class.java)
             startActivity(intent)
+        }
 
-
+        button10.setOnClickListener{
+            var intent3 = Intent(this,locker::class.java)
+            startActivity(intent3)
         }
     }
 

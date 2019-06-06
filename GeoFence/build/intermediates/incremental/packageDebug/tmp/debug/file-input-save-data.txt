@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 28 23:25:42 KST 2019
+#Wed Jun 05 00:57:54 KST 2019
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\chasura\\Documents\\capstone66\\GeoFence\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex

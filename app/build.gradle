@@ -19,6 +19,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    android {
+        sourceSets {
+            main.java.srcDirs += 'src/main/kotlin'
+        }
+    }
+
 }
 allprojects{
     repositories{
@@ -39,6 +45,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation project(':lockscreen')
     implementation 'com.github.pedroSG94:AutoPermissions:1.0.3'
+    implementation 'com.google.code.gson:gson:2.8.5'
 
 }
 apply plugin: 'com.google.gms.google-services'

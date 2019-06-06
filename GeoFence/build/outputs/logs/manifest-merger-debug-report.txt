@@ -4,44 +4,46 @@ ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManife
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5082ef9db8b31efcca3dd2894d8d9e41\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a0d7968dde44cb9f6b1feaa8f9bdd742\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\73f7a37d5e25a897ba433ec604cf8301\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2a5217787fb1cebda9b4851b4b63f6eb\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e8066692b4926f47aace26e85e3cef95\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\649212668f27e76fca3b52e9787bc895\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\68f5b82f4f00265499d5a5d63eb5e2f7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\510edeb03c9090f46d04105e5a31385f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0db33341d3b744817c569cb53b2f6f85\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\496873b7dee2214cebba39fb283da51e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cfe8ed54d7ae094b59d192d69dbb64fc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0adbaa44d0f2b5c87fa9b4c35e387bf0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7e952b5df190fe74811cfde80db2c294\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\823e13cc09b2702e3d0f08b52e43e958\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\92e9ac7cb3f9c0c5343d429f332f3c28\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\44f2fe8974f14b723f12e35d92c99e26\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\089166a3913a072c8dd2189525ca988c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e1a68529ee903247768e5cb179ac4f11\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\04d51d256eaaccd67d0769a69e2135d0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f060b30516296b1bc3d62ab3ec48d015\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\65a6efe6f7dc74a9ceb0b8236777f974\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89832cd02248146aa5a31c9fd5b24578\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\95236348fb4e67f8a2b6890345e5c845\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6897befe4ecb9fe0b8a5eaf89ff2d78c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\dc20ded56ca6e5ad9a5fe33d317c1706\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c5ffb51581ba99edff677493ae3c3150\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28ab89a374490d7c138e2643b7c0bc35\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\da29d16a4d959467be96936665b7d510\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ab0972caa93e1778697a996b53fd26fa\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\39e99be9c7bfac236edefd73ea00bcea\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\4cb108302623c4ec2f8736390b4f2084\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c293ae7238758b5e3a55c6ac924abe2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a75d9b49b35e2a6de45a7355079d117a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ed5e84a63e82527e0a7d2dfd9e60b416\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cd35e21eb01d3226fe4c3fd4e440ba1d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ca18dac5a6bb0969039bdc4bb08526a1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\deff039e5d384a5eed97f116b868c242\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\678c3e6fd8113446b1206f27888ec84f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\fc85c52a94253d0f28361129d4426cd3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f9c617376f19f9c6140d3d66460d5672\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d06a7de86405faea201c15a725d8b8e9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6ab3e4ae5ab609603b620bfb568d6943\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9dd49011a00cc06a43da64c809ef0879\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\973c3fc2abed777720905c398d3b4541\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b3486454455c918a9066359f7abeacef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3e529ec92f1c83a9ad64198e6274c688\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b2192b38751225e4bbb52f64a559bdc7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b53d6008cc989c90cfac1f1410629999\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3492da85c4ba6651147a6508f88fbd32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d8e398156d025d8b8383fb1f43d8cc70\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3985e736c89fefa6387c4eb2a7a39322\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1322d6f04a00661cd6324ec24e58cd1e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\826f4e41172d14e62bedaee868c2aa02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d93ce821ec10548251360440754063d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\74e7118eb09621445279a30c1b1f5c83\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\93a07f1e3ee2c2027442afc617bbfa76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\71cb0d5fe345a74ab81897e80cb8edb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d47f7606eed044ab441bf6e168147946\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\26efce89b52b31d74105cf7ac7f33afc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7eb08827b37bdac379af7ae913d52d21\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\13fac98b8a43c771f63dd4debc14d269\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2934dc87cf79966a524e55c70ab87d2f\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:1-44:12
@@ -63,8 +65,20 @@ INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidMan
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:6:3-65
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:6:20-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -73,30 +87,52 @@ ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManife
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:7:20-74
 application
 ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:9:3-42:17
-MERGED from [com.android.support:design:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5082ef9db8b31efcca3dd2894d8d9e41\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5082ef9db8b31efcca3dd2894d8d9e41\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\73f7a37d5e25a897ba433ec604cf8301\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\73f7a37d5e25a897ba433ec604cf8301\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2a5217787fb1cebda9b4851b4b63f6eb\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2a5217787fb1cebda9b4851b4b63f6eb\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e8066692b4926f47aace26e85e3cef95\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e8066692b4926f47aace26e85e3cef95\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\65a6efe6f7dc74a9ceb0b8236777f974\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\65a6efe6f7dc74a9ceb0b8236777f974\AndroidManifest.xml:22:5-23:19
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:22:18-91
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ca18dac5a6bb0969039bdc4bb08526a1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ca18dac5a6bb0969039bdc4bb08526a1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\deff039e5d384a5eed97f116b868c242\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\deff039e5d384a5eed97f116b868c242\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\678c3e6fd8113446b1206f27888ec84f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\678c3e6fd8113446b1206f27888ec84f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\fc85c52a94253d0f28361129d4426cd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\fc85c52a94253d0f28361129d4426cd3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f9c617376f19f9c6140d3d66460d5672\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f9c617376f19f9c6140d3d66460d5672\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d06a7de86405faea201c15a725d8b8e9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d06a7de86405faea201c15a725d8b8e9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6ab3e4ae5ab609603b620bfb568d6943\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6ab3e4ae5ab609603b620bfb568d6943\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9dd49011a00cc06a43da64c809ef0879\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9dd49011a00cc06a43da64c809ef0879\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\973c3fc2abed777720905c398d3b4541\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\973c3fc2abed777720905c398d3b4541\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b3486454455c918a9066359f7abeacef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b3486454455c918a9066359f7abeacef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3e529ec92f1c83a9ad64198e6274c688\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3e529ec92f1c83a9ad64198e6274c688\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b2192b38751225e4bbb52f64a559bdc7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b2192b38751225e4bbb52f64a559bdc7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d8e398156d025d8b8383fb1f43d8cc70\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d8e398156d025d8b8383fb1f43d8cc70\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml:15:5-31
 	android:label
@@ -145,86 +181,88 @@ uses-sdk
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5082ef9db8b31efcca3dd2894d8d9e41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5082ef9db8b31efcca3dd2894d8d9e41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a0d7968dde44cb9f6b1feaa8f9bdd742\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a0d7968dde44cb9f6b1feaa8f9bdd742\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\73f7a37d5e25a897ba433ec604cf8301\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\73f7a37d5e25a897ba433ec604cf8301\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2a5217787fb1cebda9b4851b4b63f6eb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2a5217787fb1cebda9b4851b4b63f6eb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e8066692b4926f47aace26e85e3cef95\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e8066692b4926f47aace26e85e3cef95\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\649212668f27e76fca3b52e9787bc895\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\649212668f27e76fca3b52e9787bc895\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\68f5b82f4f00265499d5a5d63eb5e2f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\68f5b82f4f00265499d5a5d63eb5e2f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\510edeb03c9090f46d04105e5a31385f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\510edeb03c9090f46d04105e5a31385f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0db33341d3b744817c569cb53b2f6f85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0db33341d3b744817c569cb53b2f6f85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\496873b7dee2214cebba39fb283da51e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\496873b7dee2214cebba39fb283da51e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cfe8ed54d7ae094b59d192d69dbb64fc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cfe8ed54d7ae094b59d192d69dbb64fc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0adbaa44d0f2b5c87fa9b4c35e387bf0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0adbaa44d0f2b5c87fa9b4c35e387bf0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7e952b5df190fe74811cfde80db2c294\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7e952b5df190fe74811cfde80db2c294\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\823e13cc09b2702e3d0f08b52e43e958\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\823e13cc09b2702e3d0f08b52e43e958\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\92e9ac7cb3f9c0c5343d429f332f3c28\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\92e9ac7cb3f9c0c5343d429f332f3c28\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\44f2fe8974f14b723f12e35d92c99e26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\44f2fe8974f14b723f12e35d92c99e26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\089166a3913a072c8dd2189525ca988c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\089166a3913a072c8dd2189525ca988c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e1a68529ee903247768e5cb179ac4f11\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e1a68529ee903247768e5cb179ac4f11\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\04d51d256eaaccd67d0769a69e2135d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\04d51d256eaaccd67d0769a69e2135d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f060b30516296b1bc3d62ab3ec48d015\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f060b30516296b1bc3d62ab3ec48d015\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\5383e21462dd365e5917a41fc635527e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\65a6efe6f7dc74a9ceb0b8236777f974\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\65a6efe6f7dc74a9ceb0b8236777f974\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89832cd02248146aa5a31c9fd5b24578\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89832cd02248146aa5a31c9fd5b24578\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\95236348fb4e67f8a2b6890345e5c845\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\95236348fb4e67f8a2b6890345e5c845\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6897befe4ecb9fe0b8a5eaf89ff2d78c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6897befe4ecb9fe0b8a5eaf89ff2d78c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\dc20ded56ca6e5ad9a5fe33d317c1706\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\dc20ded56ca6e5ad9a5fe33d317c1706\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c5ffb51581ba99edff677493ae3c3150\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c5ffb51581ba99edff677493ae3c3150\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28ab89a374490d7c138e2643b7c0bc35\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28ab89a374490d7c138e2643b7c0bc35\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\da29d16a4d959467be96936665b7d510\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\da29d16a4d959467be96936665b7d510\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ab0972caa93e1778697a996b53fd26fa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ab0972caa93e1778697a996b53fd26fa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\39e99be9c7bfac236edefd73ea00bcea\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\39e99be9c7bfac236edefd73ea00bcea\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\4cb108302623c4ec2f8736390b4f2084\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\4cb108302623c4ec2f8736390b4f2084\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c293ae7238758b5e3a55c6ac924abe2c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\c293ae7238758b5e3a55c6ac924abe2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a75d9b49b35e2a6de45a7355079d117a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\a75d9b49b35e2a6de45a7355079d117a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ed5e84a63e82527e0a7d2dfd9e60b416\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ed5e84a63e82527e0a7d2dfd9e60b416\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cd35e21eb01d3226fe4c3fd4e440ba1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\cd35e21eb01d3226fe4c3fd4e440ba1d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ca18dac5a6bb0969039bdc4bb08526a1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ca18dac5a6bb0969039bdc4bb08526a1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\deff039e5d384a5eed97f116b868c242\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\deff039e5d384a5eed97f116b868c242\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\678c3e6fd8113446b1206f27888ec84f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\678c3e6fd8113446b1206f27888ec84f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\fc85c52a94253d0f28361129d4426cd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\fc85c52a94253d0f28361129d4426cd3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f9c617376f19f9c6140d3d66460d5672\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f9c617376f19f9c6140d3d66460d5672\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d06a7de86405faea201c15a725d8b8e9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d06a7de86405faea201c15a725d8b8e9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6ab3e4ae5ab609603b620bfb568d6943\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\6ab3e4ae5ab609603b620bfb568d6943\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9dd49011a00cc06a43da64c809ef0879\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9dd49011a00cc06a43da64c809ef0879\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\973c3fc2abed777720905c398d3b4541\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\973c3fc2abed777720905c398d3b4541\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b3486454455c918a9066359f7abeacef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b3486454455c918a9066359f7abeacef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3e529ec92f1c83a9ad64198e6274c688\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3e529ec92f1c83a9ad64198e6274c688\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b2192b38751225e4bbb52f64a559bdc7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b2192b38751225e4bbb52f64a559bdc7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b53d6008cc989c90cfac1f1410629999\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\b53d6008cc989c90cfac1f1410629999\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3492da85c4ba6651147a6508f88fbd32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3492da85c4ba6651147a6508f88fbd32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d8e398156d025d8b8383fb1f43d8cc70\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d8e398156d025d8b8383fb1f43d8cc70\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3985e736c89fefa6387c4eb2a7a39322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\3985e736c89fefa6387c4eb2a7a39322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1322d6f04a00661cd6324ec24e58cd1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1322d6f04a00661cd6324ec24e58cd1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\826f4e41172d14e62bedaee868c2aa02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\826f4e41172d14e62bedaee868c2aa02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d93ce821ec10548251360440754063d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d93ce821ec10548251360440754063d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\74e7118eb09621445279a30c1b1f5c83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\74e7118eb09621445279a30c1b1f5c83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\93a07f1e3ee2c2027442afc617bbfa76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\93a07f1e3ee2c2027442afc617bbfa76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\71cb0d5fe345a74ab81897e80cb8edb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\71cb0d5fe345a74ab81897e80cb8edb6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d47f7606eed044ab441bf6e168147946\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\d47f7606eed044ab441bf6e168147946\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\26efce89b52b31d74105cf7ac7f33afc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\26efce89b52b31d74105cf7ac7f33afc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7eb08827b37bdac379af7ae913d52d21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7eb08827b37bdac379af7ae913d52d21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\13fac98b8a43c771f63dd4debc14d269\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\13fac98b8a43c771f63dd4debc14d269\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2934dc87cf79966a524e55c70ab87d2f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\2934dc87cf79966a524e55c70ab87d2f\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
 INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
@@ -234,40 +272,180 @@ INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidMan
 		ADDED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\chasura\Documents\capstone66\GeoFence\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:23:5-79
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:23:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:28:9-32
-uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\f09ca263176384de8bc34da273f81a31\AndroidManifest.xml:34:13-50
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:23:9-26:75
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\bd7989ef420467a608470c77be84857d\AndroidManifest.xml:31:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\ee6dcf34aa23975f7aaea818004718ec\AndroidManifest.xml:34:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\7ed75dc9a1e08e6674ab23eaa57ed507\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\235e491d2317e18f233d30b22e469bfa\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\9c71a7aa9539e076a20a4592cd81d17f\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\28d09eff3f3a9301a64535d37ff28f71\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0306038babaac8a9365879f59a9633bb\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\253b222dd75647e90094bf5b6c4365a8\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\89e9be0e33b7b30a4fa6bf33c565ba3f\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\237ae00ccce166ed12c44a7befbf9adf\AndroidManifest.xml:49:13-87
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\22860b09af5f0bcb9940f30854fb0312\AndroidManifest.xml:24:13-58
-meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\1f33298668a86c274da823fedc0ca9ce\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\0c71b25032706b790fa77147060deef9\AndroidManifest.xml:27:13-51
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\chasura\.gradle\caches\transforms-2\files-2.1\e4c7149723f3f4e960d44988cf8ded47\AndroidManifest.xml:24:13-58
