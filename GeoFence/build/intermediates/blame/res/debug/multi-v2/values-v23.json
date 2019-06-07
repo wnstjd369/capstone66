@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chasura\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\wnstj\\Downloads\\capstone66--\\capstone66--\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\95236348fb4e67f8a2b6890345e5c845\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "2646",
-                        "endLines": "39",
-                        "endColumns": "12",
-                        "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\a0d7968dde44cb9f6b1feaa8f9bdd742\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\3db663cdc6f957844ef2c3700a8f7c1a\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

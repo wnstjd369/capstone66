@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chasura\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "C:\\Users\\wnstj\\Downloads\\capstone66--\\capstone66--\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\a0d7968dde44cb9f6b1feaa8f9bdd742\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\3db663cdc6f957844ef2c3700a8f7c1a\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

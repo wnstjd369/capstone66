@@ -75,7 +75,7 @@ class MainActivity : BaseActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClick
     setContentView(R.layout.activity_main)
 
     val mapFragment = supportFragmentManager
-        .findFragmentById(R.id.map) as SupportMapFragment
+          .findFragmentById(R.id.map) as SupportMapFragment
     mapFragment.getMapAsync(this)
 
     newReminder.visibility = View.GONE
@@ -138,7 +138,7 @@ class MainActivity : BaseActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClick
         if (location != null) {
           val latLng = LatLng(location.latitude, location.longitude)
           map?.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15f))
-        }
+        }//여기요
       }
 
       showReminders()

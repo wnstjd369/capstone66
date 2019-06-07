@@ -11,6 +11,7 @@ import android.support.v4.content.ContextCompat
 import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.app.AppCompatActivity
 import android.view.WindowManager
+import com.example.capstone3.Main3Activity
 import com.example.capstone2.activity.EnterPinActivity
 import kotlinx.android.synthetic.main.activity_main2.*
 import org.json.JSONObject
@@ -27,11 +28,15 @@ class Main2Activity : AppCompatActivity() {
         var intent2 = Intent(this, EnterPinActivity::class.java)
         startActivity(intent2)
         fragmentManager.beginTransaction().replace(R.id.preferenceContent, fragment).commit()
+
+
         setButton.setOnClickListener{
             var intent = Intent(this,locker::class.java)
             startActivity(intent)
-
-
+        }
+        button10.setOnClickListener{
+            var intent3 = Intent(this,Main3Activity::class.java)
+            startActivity(intent3)
         }
     }
 
