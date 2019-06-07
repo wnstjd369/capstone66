@@ -1,17 +1,17 @@
 package com.example.capstone3;
 
 public class ImageUpload {
-    private String name;
+    private String date;
     private String url;
 
     public ImageUpload(){}
     public ImageUpload(String name, String url) {
-        this.name = name;
+        this.date = date;
         this.url = url;
     }
 
-    public String getName() {
-        return name;
+    public String getdate() {
+        return date;
     }
 
     public String getUrl() {

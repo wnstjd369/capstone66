@@ -14,9 +14,24 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         app:srcCompat="@drawable/student" />
+    <TextView
+        android:id="@+id/timeview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="'8시 45분'에 " />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="급식이가 학교에 도착했습니다 ! " />
 
     <LinearLayout
         android:layout_width="match_parent"

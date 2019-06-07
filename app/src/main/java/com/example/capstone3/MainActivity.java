@@ -1,8 +1,12 @@
 package com.example.capstone3;
 
 import android.content.Intent;
+import android.graphics.drawable.ShapeDrawable;
+import android.graphics.drawable.shapes.OvalShape;
 import android.net.Uri;
+import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,16 +31,21 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseReference mDatabaseref;
     private String uploadId;
     private String fileLink;
+    private ImageView imageView;
+    private Uri urii;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView imageView = findViewById(R.id.imageView);
+        imageView = findViewById(R.id.imageView);
 
-        uploadId = getIntent().getStringExtra("title");
-        Log.d("uploadID",uploadId);
+
+
+        uploadId = getIntent().getStringExtra("Name");
+
         mDatabaseref = FirebaseDatabase.getInstance().getReference("image").child(uploadId);
         mDatabaseref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -45,10 +54,12 @@ public class MainActivity extends AppCompatActivity {
                 fileLink = imageUpload.getUrl();
                 Log.d("fileLink",fileLink);
                 Uri uri = Uri.parse(fileLink);
-                Log.d("uri", String.valueOf(uri));
+                /*
+                Log.d("uri", Stri ng.valueOf(uri));
                 ImageView draweeView = findViewById(R.id.imageView);
                 draweeView.setImageURI(uri);
-
+                */
+                urii = uri;
 
             }
 
@@ -59,8 +70,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Glide.with(this)
-                .load(fileLink)
+                .load("https://firebasestorage.googleapis.com/v0/b/capstone2-master.appspot.com/o/image%2FKakaoTalk_20190606_205836209.jpg?alt=media&token=6a55070e-6679-4806-b08a-06cc78857717")
                 .into(imageView);
+
+
 
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);

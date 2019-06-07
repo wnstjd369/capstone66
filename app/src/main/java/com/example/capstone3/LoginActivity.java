@@ -97,14 +97,15 @@ public class LoginActivity extends AppCompatActivity {
                         if (user.getPassword().equals(HPassword)) {
                             if (user.getClassification().equals("부모")) {
                                 Toast.makeText(getApplicationContext(), "부모 로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
+                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                 intent.putExtra("Name",user.getName());
                                 intent.putExtra("PName",user.getPName());
                                 startActivity(intent);
                             }
+
                             else {
                                 Toast.makeText(getApplicationContext(), "급식 로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), camera.class);
                                 intent.putExtra("Name",user.getName());
                                 intent.putExtra("PName",user.getPName());
                                 startActivity(intent);

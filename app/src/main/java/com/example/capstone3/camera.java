@@ -13,6 +13,7 @@ import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.format.Time;
+import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
@@ -45,6 +46,8 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
     private DatabaseReference mDatabaseRef;
     private String downloadUrl;
     private EditText txtImageName;
+    private String uploadId;
+
     public static final String FB_STORAGE_PATH = "image/";
     public static final String FB_DATABASE_PATH = "image";
 
@@ -56,6 +59,8 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
 
         mStorageRef = FirebaseStorage.getInstance().getReference();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference(FB_DATABASE_PATH);
+
+        uploadId = getIntent().getStringExtra("PName");
 
 
         Button camerabutton = findViewById(R.id.camerabutton);
@@ -100,15 +105,17 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
                                 @Override
                                 public void onSuccess(Uri uri) {
                                     downloadUrl = uri.toString();
-                                    ImageUpload imageUpload = new ImageUpload("PID", downloadUrl);
                                     Time now = new Time(Time.getCurrentTimezone());
                                     now.setToNow();
-                                    String title = now.format("%y%m%d%k%M%S");
-                                    Toast.makeText(getApplicationContext(), title, Toast.LENGTH_SHORT).show();
-                                    mDatabaseRef.child(title).setValue(imageUpload);
+                                    String title = now.format("%y%m%d");
+                                    ImageUpload imageUpload = new ImageUpload(title, downloadUrl); // title = 날짜
+                                    Log.d("title",title);
+                                    //Toast.makeText(getApplicationContext(), title, Toast.LENGTH_SHORT).show();
+
+                                    mDatabaseRef.child(uploadId).setValue(imageUpload);
                                     dialog.dismiss();
                                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                    intent.putExtra("title", title);
+                                    intent.putExtra("ID", uploadId); // 부모아이디 전송
                                     startActivity(intent);
                                 }
                             });
