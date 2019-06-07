@@ -93,22 +93,24 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         Iterator<DataSnapshot> child = dataSnapshot.getChildren().iterator();
-                        User user = dataSnapshot.child(Phone.getText().toString()).getValue(User.class);
-                        if (user.getPassword().equals(HPassword)) {
-                            if (user.getClassification().equals("부모")) {
-                                Toast.makeText(getApplicationContext(), "부모 로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                intent.putExtra("Name",user.getName());
-                                intent.putExtra("PName",user.getPName());
-                                startActivity(intent);
-                            }
-
-                            else {
-                                Toast.makeText(getApplicationContext(), "급식 로그인!", Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(getApplicationContext(), camera.class);
-                                intent.putExtra("Name",user.getName());
-                                intent.putExtra("PName",user.getPName());
-                                startActivity(intent);
+                        if (dataSnapshot.child(Phone.getText().toString()).exists()) {
+                            User user = dataSnapshot.child(Phone.getText().toString()).getValue(User.class);
+                            if (user.getPassword().equals(HPassword)) {
+                                if (user.getClassification().equals("부모")) {
+                                    Toast.makeText(getApplicationContext(), "부모 로그인!", Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                    intent.putExtra("Name", user.getName());
+                                    intent.putExtra("PName", user.getPName());
+                                    startActivity(intent);
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "급식 로그인!", Toast.LENGTH_LONG).show();
+                                    Intent intent = new Intent(getApplicationContext(), camera.class);
+                                    intent.putExtra("Name", user.getName());
+                                    intent.putExtra("PName", user.getPName());
+                                    startActivity(intent);
+                                }
+                            } else {
+                                Toast.makeText(getApplicationContext(), "아이디 또는 비밀번호를 확인하세요.", Toast.LENGTH_LONG).show();
                             }
                         }
                         else {

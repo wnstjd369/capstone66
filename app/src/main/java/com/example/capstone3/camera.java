@@ -114,9 +114,11 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
 
                                     mDatabaseRef.child(uploadId).setValue(imageUpload);
                                     dialog.dismiss();
+                                    /*
                                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                     intent.putExtra("ID", uploadId); // 부모아이디 전송
                                     startActivity(intent);
+                                    */
                                 }
                             });
                         }

@@ -19,6 +19,11 @@ import com.example.capstone3.ManagementActivity;
 import com.example.capstone3.MenuActivity;
 import com.example.capstone3.R;
 import com.example.capstone3.subActivity;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -34,50 +39,73 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private Uri urii;
 
+    FirebaseAuth mAuth = FirebaseAuth.getInstance();
+    FirebaseUser user = mAuth.getCurrentUser();
+
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = findViewById(R.id.imageView);
+        /*
+        final FirebaseDatabase database = FirebaseDatabase.getInstance();
+        final DatabaseReference databaseReference = database.getReference("users");
 
-
-
-        uploadId = getIntent().getStringExtra("Name");
-
-        mDatabaseref = FirebaseDatabase.getInstance().getReference("image").child(uploadId);
-        mDatabaseref.addListenerForSingleValueEvent(new ValueEventListener() {
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                ImageUpload imageUpload = dataSnapshot.getValue(ImageUpload.class);
-                fileLink = imageUpload.getUrl();
-                Log.d("fileLink",fileLink);
-                Uri uri = Uri.parse(fileLink);
-                /*
-                Log.d("uri", Stri ng.valueOf(uri));
-                ImageView draweeView = findViewById(R.id.imageView);
-                draweeView.setImageURI(uri);
-                */
-                urii = uri;
 
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
+        */
+
+        imageView = findViewById(R.id.imageView);
+        if (user != null) {
+            uploadId = getIntent().getStringExtra("Name");
+            if (uploadId != null) {
+                mDatabaseref = FirebaseDatabase.getInstance().getReference("image").child(uploadId);
+                mDatabaseref.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        ImageUpload imageUpload = dataSnapshot.getValue(ImageUpload.class);
+                        fileLink = imageUpload.getUrl();
+                        Log.d("fileLink", fileLink);
+                        Uri uri = Uri.parse(fileLink);
+                        Log.d("uri",uri.toString());
+
+                        /*
+                         ImageView draweeView = findViewById(R.id.imageView);
+                         draweeView.setImageURI(uri);
+                        */
+                        urii = uri;
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+
+
+                });
+            }
+        } else {
+            signInAnonymously();
+        }
 
         Glide.with(this)
-                .load("https://firebasestorage.googleapis.com/v0/b/capstone2-master.appspot.com/o/image%2FKakaoTalk_20190606_205836209.jpg?alt=media&token=6a55070e-6679-4806-b08a-06cc78857717")
+                .load(urii)
                 .into(imageView);
-
 
 
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);
         Button button6 = findViewById(R.id.button6);
+
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -108,4 +136,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private void signInAnonymously() {
+        mAuth.signInAnonymously().addOnSuccessListener(this, new  OnSuccessListener<AuthResult>() {
+            @Override
+            public void onSuccess(AuthResult authResult) {
+                // do your stuff
+            }
+        })
+                .addOnFailureListener(this, new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception exception) {
+                        Log.e("FAIL", "signInAnonymously:FAILURE", exception);
+                    }
+                });
+    }
+
 }
