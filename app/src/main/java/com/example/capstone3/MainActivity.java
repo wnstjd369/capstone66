@@ -30,11 +30,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Iterator;
+
 public class MainActivity extends AppCompatActivity {
 
 
     private DatabaseReference mDatabaseref;
+    private DatabaseReference uDatabaseref;
     private String uploadId;
+    private String uploadId2;
     private String fileLink;
     private ImageView imageView;
     private Uri urii;
@@ -47,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Log.d("LOG2","2");
         /*
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference databaseReference = database.getReference("users");
@@ -67,22 +71,25 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         if (user != null) {
             uploadId = getIntent().getStringExtra("Name");
+            uploadId2 = getIntent().getStringExtra("PName");
             if (uploadId != null) {
                 mDatabaseref = FirebaseDatabase.getInstance().getReference("image").child(uploadId);
                 mDatabaseref.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         ImageUpload imageUpload = dataSnapshot.getValue(ImageUpload.class);
-                        fileLink = imageUpload.getUrl();
-                        Log.d("fileLink", fileLink);
-                        Uri uri = Uri.parse(fileLink);
-                        Log.d("uri",uri.toString());
+                        if (dataSnapshot.child(uploadId).exists()) {
+                            fileLink = imageUpload.getUrl();
+                            Log.d("fileLink", fileLink);
+                            Uri uri = Uri.parse(fileLink);
+                            Log.d("uri", uri.toString());
 
                         /*
                          ImageView draweeView = findViewById(R.id.imageView);
                          draweeView.setImageURI(uri);
                         */
-                        urii = uri;
+                            urii = uri;
+                        }
                     }
 
                     @Override
@@ -97,10 +104,11 @@ public class MainActivity extends AppCompatActivity {
             signInAnonymously();
         }
 
-        Glide.with(this)
-                .load(urii)
-                .into(imageView);
-
+        if (urii != null) {
+            Glide.with(this)
+                    .load(urii)
+                    .into(imageView);
+        }
 
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);
@@ -109,19 +117,15 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ManagementActivity.class);
-                intent.putExtra("name","학생관리");
-                startActivity(intent);
-
+                uDatabaseref = FirebaseDatabase.getInstance().getReference("users").child(uploadId2);
+                uDatabaseref.child("Lock").setValue("1");
             }
         });
         button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
-                intent.putExtra("name","미션관리");
-                startActivity(intent);
-
+                uDatabaseref = FirebaseDatabase.getInstance().getReference("users").child(uploadId2);
+                uDatabaseref.child("Lock").setValue("0");
 
             }
         });

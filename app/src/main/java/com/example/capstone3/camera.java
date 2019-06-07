@@ -23,8 +23,11 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
@@ -44,9 +47,11 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
 
     private StorageReference mStorageRef;
     private DatabaseReference mDatabaseRef;
+    private DatabaseReference uDatabaseRef;
     private String downloadUrl;
     private EditText txtImageName;
     private String uploadId;
+    private String LOCK;
 
     public static final String FB_STORAGE_PATH = "image/";
     public static final String FB_DATABASE_PATH = "image";
@@ -56,10 +61,26 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
         imageView = findViewById(R.id.imageView);
+        Log.d("LOG2","2");
+        uploadId = getIntent().getStringExtra("Name");
+
+        uDatabaseRef = FirebaseDatabase.getInstance().getReference("users").child(uploadId);
+        uDatabaseRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                User user = dataSnapshot.getValue(User.class);
+                LOCK = user.getLock();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
 
         mStorageRef = FirebaseStorage.getInstance().getReference();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference(FB_DATABASE_PATH);
-
         uploadId = getIntent().getStringExtra("PName");
 
 
@@ -70,10 +91,13 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
                 takePicture();
             }
         });
-
-
-
         AutoPermissions.Companion.loadAllPermissions(this, 101);
+
+        if (LOCK != null) {
+            Intent intent = new Intent(this, Main2Activity.class);
+            intent.putExtra("LOCK", LOCK);
+            startActivity(intent);
+        }
     }
 
     public void takePicture() {
@@ -176,13 +200,13 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
 
     @Override
     public void onDenied(int requestCode, @NotNull String[] permissions) {
-        Toast.makeText(this, "permissions denied : " + permissions.length,
-                Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "permissions denied : " + permissions.length,
+                //Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void onGranted(int requestCode, @NotNull String[] permissions) {
-        Toast.makeText(this, "permissions granted : " + permissions.length, Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "permissions granted : " + permissions.length, Toast.LENGTH_LONG).show();
     }
 
 }
