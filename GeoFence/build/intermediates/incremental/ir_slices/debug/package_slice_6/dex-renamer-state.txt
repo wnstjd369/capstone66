@@ -1,4 +1,0 @@
-#Thu Jun 06 19:45:38 GMT+09:00 2019
-base.0=C\:\\Users\\wnstj\\Downloads\\capstone66--\\capstone66--\\GeoFence\\build\\intermediates\\transforms\\dexMerger\\debug\\6
-path.0=classes.dex
-renamed.0=classes.dex

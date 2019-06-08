@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.capstone3">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
 
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
-    <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="@string/google_maps_key" />
 
     <application
-        android:name=".ReminderApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name=".Main3Activity" />
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin"></activity>
         <activity android:name=".camera" />
         <activity android:name=".FileExActivity" />
         <activity android:name=".Main2Activity" />
-
 
         <receiver
             android:name=".BootCompleteReceiver"
@@ -40,9 +30,6 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
-        <activity android:name=".NewReminderActivity" />
-        <service android:name=".GeofenceTransitionsIntentService"/>
 
         <service
             android:name=".LockScreenService"
@@ -57,7 +44,6 @@
         <activity android:name=".PrefExActivity" />
         <activity android:name=".PrefFragmentActivity" />
         <activity android:name=".locker" />
-
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -92,9 +78,7 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/external"
-                />
-
+                android:resource="@xml/external" />
         </provider>
     </application>
 

@@ -12,11 +12,7 @@ import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.WindowManager
-<<<<<<< HEAD
-import com.example.capstone3.Main3Activity
-=======
 import android.widget.Toast
->>>>>>> de6fbcddc82d975c202ba17b22d06356d8f6f1bc
 import com.example.capstone2.activity.EnterPinActivity
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_main2.*
@@ -41,23 +37,14 @@ class Main2Activity : AppCompatActivity() {
         name = intent.getStringExtra("Name")
         lock = ss
         SName = name
-        // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체
+        // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체m
         var intent2 = Intent(this, EnterPinActivity::class.java)
         startActivity(intent2)
         fragmentManager.beginTransaction().replace(R.id.preferenceContent, fragment).commit()
-
-
         setButton.setOnClickListener{
             var intent = Intent(this,locker::class.java)
             startActivity(intent)
-<<<<<<< HEAD
-        }
-        button10.setOnClickListener{
-            var intent3 = Intent(this,Main3Activity::class.java)
-            startActivity(intent3)
-=======
 
->>>>>>> de6fbcddc82d975c202ba17b22d06356d8f6f1bc
         }
         var intent3 = Intent(this, camera::class.java)
         intent3.putExtra("Name",SName)
@@ -107,14 +94,9 @@ class Main2Activity : AppCompatActivity() {
             }
         }
 
-        class QuizLockerActivity : AppCompatActivity() {
-            var quiz: JSONObject? = null
-            // 정답횟수 저장 SharedPreference
-            val wrongAnswerPref by lazy { getSharedPreferences("wrongAnswer", Context.MODE_PRIVATE) }
-            // 오답횟수 저장 SharedPreference
-            val correctAnswerPref by lazy { getSharedPreferences("correctAnswer", Context.MODE_PRIVATE) }
+
 
 
         }
-    }
+
 }

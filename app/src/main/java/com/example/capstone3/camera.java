@@ -93,11 +93,23 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
         });
         AutoPermissions.Companion.loadAllPermissions(this, 101);
 
-        if (LOCK != null) {
-            Intent intent = new Intent(this, Main2Activity.class);
-            intent.putExtra("LOCK", LOCK);
-            startActivity(intent);
-        }
+        Button passbutton = findViewById(R.id.passbutton);
+
+        passbutton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent23 = new Intent(getApplicationContext(), admin.class);
+                startActivity(intent23);
+            }
+        });
+
+
+
+//        if (LOCK != null) {
+//            Intent intent = new Intent(this, Main2Activity.class);
+//            intent.putExtra("LOCK", LOCK);
+//            startActivity(intent);
+//        }
     }
 
     public void takePicture() {
@@ -208,5 +220,10 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
     public void onGranted(int requestCode, @NotNull String[] permissions) {
         //Toast.makeText(this, "permissions granted : " + permissions.length, Toast.LENGTH_LONG).show();
     }
+    @Override
+    public void onBackPressed() {
+ 
+    }
+
 
 }

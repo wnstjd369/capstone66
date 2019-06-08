@@ -7,34 +7,4 @@
         <item>역사</item>
         <item>수도</item>
     </string-array>
-    <string name="instruction_where_description">해당 장소를 지정하세요.</string>
-    <string name="instruction_where_subtitle_description">맵을 드래그하여 세팅합니다</string>
-    <string name="instruction_radius_description">반경을 선택하세요</string>
-    <string name="instruction_message_description">알림 메시지를 입력하세요!</string>
-    <string name="continue_description">Continue</string>
-    <string name="error_required">Required</string>
-    <string name="message_hint">We arrived! :]</string>
-    <string name="radius_description">%1$s 미터</string>
-
-    <string name="reminder_removal_alert">제거 하시겠습니까??!</string>
-    <string name="reminder_removal_alert_positive">넵</string>
-    <string name="reminder_removal_alert_negative">아녀</string>
-
-    <string name="reminder_added_success">추가 됐습니다!!</string>
-    <string name="reminder_removed_success">제거 됐습니다!!</string>
-
-    <string name="marker_content_description">Marker</string>
-
-    <string name="geofence_unknown_error">
-    Unknown error: the Geofence service is not available now.
-  </string>
-    <string name="geofence_not_available">
-    Geofence service is not available now. Go to Settings>Location>Mode and choose High accuracy.
-  </string>
-    <string name="geofence_too_many_geofences">
-    Your app has registered too many geofences.
-  </string>
-    <string name="geofence_too_many_pending_intents">
-    You have provided too many PendingIntents to the addGeofences() call.
-  </string>
 </resources>

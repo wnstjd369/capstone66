@@ -36,7 +36,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="도착인증하기" />
+
+        <Button
+            android:id="@+id/passbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="비밀번호,GPS 설정" />
     </LinearLayout>
+
+
 
 
 </LinearLayout>

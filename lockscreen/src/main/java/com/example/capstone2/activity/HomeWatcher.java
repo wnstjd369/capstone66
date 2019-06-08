@@ -32,13 +32,13 @@ public class HomeWatcher {
 
     public void stopWatch() {
         if (mRecevier != null) {
-            mContext.unregisterReceiver(mRecevier);//여기오류아니에요 ㅠㅠ저건 무시해도되는오류
-        }//여기에요 저는이걸 다  app에 박아넣었습니다.
+            mContext.unregisterReceiver(mRecevier);
+        }
     }
 
     class InnerRecevier extends BroadcastReceiver {
-        final String SYSTEM_DIALOG_REASON_KEY = "reason";//여기가아니라
-        final String SYSTEM_DIALOG_REASON_GLOBAL_ACTIONS = "globalactions";//ㅇ
+        final String SYSTEM_DIALOG_REASON_KEY = "reason";
+        final String SYSTEM_DIALOG_REASON_GLOBAL_ACTIONS = "globalactions";
         final String SYSTEM_DIALOG_REASON_RECENT_APPS = "recentapps";
         final String SYSTEM_DIALOG_REASON_HOME_KEY = "homekey";
 
