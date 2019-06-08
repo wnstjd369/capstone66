@@ -2,6 +2,7 @@ package com.example.capstone3;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.concurrent.locks.Lock;
 
 import static java.lang.Boolean.FALSE;
 
@@ -13,7 +14,7 @@ public class User {
     private String Password;
     private String Classification;
     private int Connect;
-    private int Lock;
+    private String Lock;
     private int Geofence;
 
     public User() { }
@@ -75,13 +76,7 @@ public class User {
         Connect = connect;
     }
 
-    public int getLock() {
-        return Lock;
-    }
 
-    public void setLock(int lock) {
-        Lock = lock;
-    }
 
     public int getGeofence() {
         return Geofence;
@@ -89,5 +84,13 @@ public class User {
 
     public void setGeofence(int geofence) {
         Geofence = geofence;
+    }
+
+    public String getLock() {
+        return Lock;
+    }
+
+    public void setLock(String lock) {
+        Lock = lock;
     }
 }
