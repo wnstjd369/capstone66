@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.android.raywenderlich.remindmethere.MainActivity;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
@@ -100,6 +101,16 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
             public void onClick(View v) {
                 Intent intent23 = new Intent(getApplicationContext(), admin.class);
                 startActivity(intent23);
+            }
+        });
+
+        Button passbutton2 = findViewById(R.id.passbutton2);
+
+        passbutton2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent24 = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent24);
             }
         });
 

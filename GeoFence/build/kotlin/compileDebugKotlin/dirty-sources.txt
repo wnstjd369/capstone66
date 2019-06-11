@@ -1,9 +1,0 @@
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\BaseActivity.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\GeofenceErrorMessages.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\GeofenceTransitionsIntentService.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\MainActivity.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\NewReminderActivity.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\Reminder.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\ReminderApp.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\ReminderRepository.kt
-C:\Users\wnstj\Documents\capstone66\GeoFence\src\main\java\com\android\raywenderlich\remindmethere\Utils.kt

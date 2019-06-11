@@ -1,8 +1,6 @@
 package com.example.capstone3;
 
 import android.content.Intent;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.OvalShape;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -15,10 +13,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.example.capstone3.ManagementActivity;
-import com.example.capstone3.MenuActivity;
-import com.example.capstone3.R;
-import com.example.capstone3.subActivity;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -29,8 +23,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import java.util.Iterator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main0);
         Log.d("LOG2","2");
         /*
         final FirebaseDatabase database = FirebaseDatabase.getInstance();

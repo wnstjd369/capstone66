@@ -75,8 +75,8 @@ class MainActivity : BaseActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClick
     setContentView(R.layout.activity_main)
 
     val mapFragment = supportFragmentManager
-        .findFragmentById(R.id.map) as SupportMapFragment
-    mapFragment.getMapAsync(this)
+        .findFragmentById(R.id.map) as? SupportMapFragment
+    mapFragment?.getMapAsync(this)
 
     newReminder.visibility = View.GONE
     currentLocation.visibility = View.GONE
