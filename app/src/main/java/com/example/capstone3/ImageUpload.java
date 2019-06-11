@@ -5,7 +5,7 @@ public class ImageUpload {
     private String url;
 
     public ImageUpload(){}
-    public ImageUpload(String name, String url) {
+    public ImageUpload(String date, String url) {
         this.date = date;
         this.url = url;
     }

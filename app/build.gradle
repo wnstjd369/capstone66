@@ -34,6 +34,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:17.0.0'
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-storage:17.0.0'
+    implementation 'com.firebaseui:firebase-ui-storage:3.2.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.google.firebase:firebase-auth:17.0.0'
     implementation "org.jetbrains.anko:anko-common:0.8.3"
     testImplementation 'junit:junit:4.12'

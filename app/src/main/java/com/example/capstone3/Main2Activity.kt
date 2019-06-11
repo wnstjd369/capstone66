@@ -34,7 +34,7 @@ class Main2Activity : AppCompatActivity() {
         var ss:String =""
         var name:String=""
         ss = intent.getStringExtra("LOCK")
-        name = intent.getStringExtra("Name")
+        name = intent.getStringExtra("Name") //자기이름을 가져옴
         lock = ss
         SName = name
         // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체m
@@ -47,7 +47,7 @@ class Main2Activity : AppCompatActivity() {
 
         }
         var intent3 = Intent(this, camera::class.java)
-        intent3.putExtra("Name",SName)
+        intent3.putExtra("Name",SName) //자기이름 전송
         startActivity(intent3)
     }
 
