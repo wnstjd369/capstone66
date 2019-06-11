@@ -110,7 +110,7 @@ public class LoginActivity extends AppCompatActivity {
                                     intent.putExtra("Name", user.getName());
                                     intent.putExtra("LOCK",user.getLock());
                                     intent.putExtra("PName", user.getPName());
-                                    Log.d("PName",user.getPName());
+                                    Log.d("LOCK",user.getLock());
                                     Log.d("LOG1","1");
                                     startActivity(intent);
                                 }

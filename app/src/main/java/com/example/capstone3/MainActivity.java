@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Registry;
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         mStorageRef = FirebaseStorage.getInstance().getReference();
         vStorageRef = mStorageRef.child("image/"+uploadId2+"/"+date+".jpg");
 
+        uDatabaseref = FirebaseDatabase.getInstance().getReference("users");
 
 
         imageView = findViewById(R.id.imageView);
@@ -178,14 +180,15 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                uDatabaseref.child("Lock").setValue("1");
+                uDatabaseref.child(uploadId2).child("Lock").setValue("1");
+                Toast.makeText(getApplicationContext(), "LOCK ON", Toast.LENGTH_LONG).show();
             }
         });
         button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                uDatabaseref.child("Lock").setValue("0");
-
+                uDatabaseref.child(uploadId2).child("Lock").setValue("0");
+                Toast.makeText(getApplicationContext(), "LOCK OFF", Toast.LENGTH_LONG).show();
             }
         });
         button6.setOnClickListener(new View.OnClickListener(){

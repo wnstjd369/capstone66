@@ -50,22 +50,24 @@
             android:textColor="#ffffffff" />
 
         <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="LOCK ON"
+            android:textColor="#ffffffff" />
+
+        <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:background="@color/colorPrimaryDark"
 
-            android:text="미션관리"
+            android:text="LOCK OFF"
             android:textColor="#ffffffff" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:text="학생관리"
-            android:textColor="#ffffffff" />
+
     </LinearLayout>
 
 </LinearLayout>

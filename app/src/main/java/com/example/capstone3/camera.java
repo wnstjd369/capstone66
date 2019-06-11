@@ -176,15 +176,11 @@ public class camera extends AppCompatActivity implements AutoPermissionsListener
 
                             ImageUpload imageUpload = new ImageUpload(date, downloadUrl); // title = 날짜
                             Log.d("title",date);
-                            //Toast.makeText(getApplicationContext(), title, Toast.LENGTH_SHORT).show();
+
 
                             mDatabaseRef.child(uploadId).setValue(imageUpload);
                             dialog.dismiss();
-                                    /*
-                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                    intent.putExtra("ID", uploadId); // 부모아이디 전송
-                                    startActivity(intent);
-                                    */
+                            Toast.makeText(getApplicationContext(), "인증완료", Toast.LENGTH_SHORT).show();
                         }
                     });
                 }
