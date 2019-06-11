@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chasura\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\wnstj\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\a0d7968dde44cb9f6b1feaa8f9bdd742\\res\\values-eu\\values-eu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,312,422,508,614,738,825,909,1001,1095,1192,1286,1388,1482,1578,1675,1767,1860,1942,2051,2161,2260,2369,2475,2586,2757,2856",
-                        "endColumns": "108,97,109,85,105,123,86,83,91,93,96,93,101,93,95,96,91,92,81,108,109,98,108,105,110,170,98,81",
-                        "endOffsets": "209,307,417,503,609,733,820,904,996,1090,1187,1281,1383,1477,1573,1670,1762,1855,1937,2046,2156,2255,2364,2470,2581,2752,2851,2933"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,312,422,508,614,738,825,909,1001,1095,1192,1286,1388,1482,1578,1675,1767,1860,1942,2051,2161,2260,2369,2475,2586,2757,5642",
-                        "endColumns": "108,97,109,85,105,123,86,83,91,93,96,93,101,93,95,96,91,92,81,108,109,98,108,105,110,170,98,81",
-                        "endOffsets": "209,307,417,503,609,733,820,904,996,1090,1187,1281,1383,1477,1573,1670,1762,1855,1937,2046,2156,2255,2364,2470,2581,2752,2851,5719"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\9c71a7aa9539e076a20a4592cd81d17f\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\ee7b404630bbcd9dfde4f326518f3f86\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -30,15 +13,15 @@
                         "endOffsets": "346,554,678,785,991,1116,1265,1397,1640,1746,1944,2072,2299,2484,2576,2667,2781"
                     },
                     "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2856,2962,3170,3298,3409,3615,3744,3897,4234,4477,4587,4785,4917,5144,5333,5429,5524",
+                        "startOffsets": "1905,2011,2219,2347,2458,2664,2793,2946,3283,3526,3636,3834,3966,4193,4382,4478,4573",
                         "endColumns": "105,207,127,110,205,128,152,135,242,109,197,131,226,188,95,94,117",
-                        "endOffsets": "2957,3165,3293,3404,3610,3739,3892,4028,4472,4582,4780,4912,5139,5328,5424,5519,5637"
+                        "endOffsets": "2006,2214,2342,2453,2659,2788,2941,3077,3521,3631,3829,3961,4188,4377,4473,4568,4686"
                     }
                 },
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\22860b09af5f0bcb9940f30854fb0312\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\9d76895d5ee0813bdcca3a7196e2cd04\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -47,15 +30,15 @@
                         "endOffsets": "447"
                     },
                     "to": {
-                        "startLines": "37",
+                        "startLines": "27",
                         "startColumns": "4",
-                        "startOffsets": "4033",
+                        "startOffsets": "3082",
                         "endColumns": "200",
-                        "endOffsets": "4229"
+                        "endOffsets": "3278"
                     }
                 },
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\5383e21462dd365e5917a41fc635527e\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\73d2ee63640e49e37a6b2c6abbaf4b50\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -64,11 +47,28 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "48",
+                        "startLines": "38",
                         "startColumns": "4",
-                        "startOffsets": "5724",
+                        "startOffsets": "4773",
                         "endColumns": "100",
-                        "endOffsets": "5820"
+                        "endOffsets": "4869"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\49a0be1caf83a3425722b4879d48bbb8\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,312,422,508,614,738,825,909,991,1100,1210,1309,1418,1524,1635,1806,1905",
+                        "endColumns": "108,97,109,85,105,123,86,83,81,108,109,98,108,105,110,170,98,81",
+                        "endOffsets": "209,307,417,503,609,733,820,904,986,1095,1205,1304,1413,1519,1630,1801,1900,1982"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,312,422,508,614,738,825,909,991,1100,1210,1309,1418,1524,1635,1806,4691",
+                        "endColumns": "108,97,109,85,105,123,86,83,81,108,109,98,108,105,110,170,98,81",
+                        "endOffsets": "209,307,417,503,609,733,820,904,986,1095,1205,1304,1413,1519,1630,1801,1900,4768"
                     }
                 }
             ]

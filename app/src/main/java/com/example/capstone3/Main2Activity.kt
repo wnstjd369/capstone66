@@ -37,7 +37,7 @@ class Main2Activity : AppCompatActivity() {
         name = intent.getStringExtra("Name")
         lock = ss
         SName = name
-        // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체
+        // preferenceContent FrameLayout 영역을 PreferenceFragment 로 교체m
         var intent2 = Intent(this, EnterPinActivity::class.java)
         startActivity(intent2)
         fragmentManager.beginTransaction().replace(R.id.preferenceContent, fragment).commit()
@@ -94,14 +94,9 @@ class Main2Activity : AppCompatActivity() {
             }
         }
 
-        class QuizLockerActivity : AppCompatActivity() {
-            var quiz: JSONObject? = null
-            // 정답횟수 저장 SharedPreference
-            val wrongAnswerPref by lazy { getSharedPreferences("wrongAnswer", Context.MODE_PRIVATE) }
-            // 오답횟수 저장 SharedPreference
-            val correctAnswerPref by lazy { getSharedPreferences("correctAnswer", Context.MODE_PRIVATE) }
+
 
 
         }
-    }
+
 }

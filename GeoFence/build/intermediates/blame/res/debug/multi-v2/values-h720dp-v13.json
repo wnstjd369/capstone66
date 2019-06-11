@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chasura\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\wnstj\\Documents\\capstone66\\GeoFence\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chasura\\.gradle\\caches\\transforms-2\\files-2.1\\a0d7968dde44cb9f6b1feaa8f9bdd742\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\wnstj\\.gradle\\caches\\transforms-2\\files-2.1\\49a0be1caf83a3425722b4879d48bbb8\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
